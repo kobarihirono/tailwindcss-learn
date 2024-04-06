@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
-    <title>Tailwind CSS</title>
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+    <title>Tailwind CSS入門</title>
+  </head>
+  <body>
+    <div class="border border-blue-400 py-16 px-10 m-10">
+      <h1 class="font-bold text-2xl lg:text-7xl sm:text-red-400">
+        Tailwind CSS入門
+      </h1>
+    </div>
+    <div class="border border-pink-400 py-16 px-10 m-10">
+      <h1 class="font-bold text-2xl lg:text-7xl xl:text-green-400">
+        Tailwind CSS入門
+      </h1>
+    </div>
+
+    <button class="easy-button">ボタン</button>
+    <button
+      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded ml-8"
+    >
+      ボタン
+    </button>
+    <button class="btn btn-blue">ボタン</button>
+    <button class="btn bg-primary-200 text-white">ボタン</button>
+  </body>
 </html>
