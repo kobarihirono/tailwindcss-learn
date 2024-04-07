@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ポートフォリオ</title>
+  </head>
+  <body class="font-poppins bg-body text-white">
+    <!-- ナビゲーション -->
+    <header class="py-6">
+      <div
+        class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full"
+      >
+        <a href="portfolio.html" class="text-3xl font-bold cursor-pointer"
+          >Code.com</a
+        >
+        <ul class="lg:flex items-center space-x-12 hidden">
+          <li>
+            <a
+              href="#home"
+              class="hover:text-selected-text transition-all duration-300"
+              >ホーム</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              class="hover:text-selected-text transition-all duration-300"
+              >ポートフォリオ</a
+            >
+          </li>
+          <li>
+            <a
+              href="#client"
+              class="hover:text-selected-text transition-all duration-300"
+              >お客様</a
+            >
+          </li>
+          <li>
+            <a href="#contact">
+              <button
+                class="px-6 py-2 bg-theme rounded-lg hover:bg-purple-600 transition-all duration-300"
+              >
+                お問い合わせ
+              </button>
+            </a>
+          </li>
+        </ul>
+
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars cursor-pointer"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ヒーローセクション -->
+      <div
+        id="home"
+        class="container mt-16 flex justify-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      >
+        <div class="flex flex-wrap md:flex-nowrap">
+          <div
+            class="md:my-36 lg:ml-20 justify-center md:justify-start max-w-xl md:block flex flex-col"
+          >
+            <h1
+              class="text-5xl font-bold text-center md:text-left lg:text-6xl md:text-5xl"
+            >
+              TailwindCSSで<br />
+              美しいサイトを<br />
+              制作します<br />
+            </h1>
+            <div class="md:block flex justify-center">
+              <button
+                class="px-6 py-4 bg-theme rounded-lg hover:bg-purple-600 transition-all duration-300 mt-10"
+              >
+                <i class="fa-solid fa-code-compare mr-2"></i>
+                <span>もっと見る</span>
+              </button>
+            </div>
+          </div>
+          <img
+            src="images/human.jpg"
+            alt="hero"
+            class="md:absolute lg:top-2 lg:right-52 lg:w-1/2 md:w-3/5 w-10/12 mt-12 md:mt-0 right-6 mx-auto -z-10"
+          />
+        </div>
+        <!-- ヒーローセクション -->
+      </div>
+    </main>
+  </body>
+</html>
